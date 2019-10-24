@@ -1,0 +1,21 @@
+.action-icon {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: solid 1.5px #cccccc;
+  box-shadow: 0 -3px 15px -3px #cccccc;
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  width: 50px;
+
+  &:hover {
+    border-color: #c5242a;
+  }
+
+  &--selected {
+    border-color: #c5242a;
+  }
+
+}

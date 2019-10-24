@@ -1,0 +1,14 @@
+.action-button {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: Roboto;
+  margin-bottom: 20px;
+
+  &__action {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333333;
+    margin-top: 9px;
+  }
+}

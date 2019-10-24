@@ -1,0 +1,47 @@
+.edge-creator {
+  align-items: center;
+  color: #666666;
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+  height: 200px;
+  text-align: center;
+  width: 250px;
+
+  &__icon {
+    position: absolute;
+    right: 45px;
+    top: 50%;
+    transform: translateY(-65%);
+  }
+
+  &__title {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 15px 0;
+  }
+
+  &__selector {
+    margin-bottom: 8px;
+
+    &-select {
+      width: 140px;
+      margin-left: 5px;
+    }
+
+    &-from {
+      margin-right: 30px;
+    }
+
+    &-to {
+      margin-right: 15px;
+    }
+
+    &-add {
+      // important are use to overwrite semantic styles
+      width: 140px !important;
+      margin: 0px !important;
+    }
+  }
+}

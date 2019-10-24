@@ -1,0 +1,41 @@
+.path-finder {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  font-family: Roboto;
+  width: 250px;
+  height: 220px;
+  text-align: right;
+
+  &__icon {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+  }
+
+  &__title {
+    font-family: Roboto;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 22px;
+  }
+
+  &__selector {
+    margin: 0 35px 8px 0;
+
+    &-select {
+      width: 140px;
+      margin-left: 5px;
+    }
+
+    &-placeholder {
+      color: #666666;
+    }
+  }
+
+  &__btn {
+    width: 140px !important;
+  }
+}
